@@ -5,11 +5,11 @@
 #include "MatrixC.hpp"
 int main()
 {
+
+
     Matrix a(3, 2);
     Matrix b(3, 2);
 
-    //b[2 + 1*6] = 77.0f;
-    //b[2 + 0*6] = 56;
     b[0] = 2.1f;
     b[1] = 2.1f;
     b[2] = 2.1f;
@@ -25,7 +25,5 @@ int main()
     a(2, 1) = 50.0f;
     
     Matrix m = a + b;
-
-    std::cout << m(2, 1) << std::endl;
-
+    std::cout << "no panic! that was just the empty matrix" << std::endl;
 };
