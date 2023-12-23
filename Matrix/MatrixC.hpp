@@ -6,12 +6,12 @@ class Matrix {
 private:
     float* elem;
     std::array<int, 2> dim;
-
+    //int* dim;
 
 public:
-    Matrix(Matrix&& a) noexcept;
+    //Matrix(Matrix&& a) noexcept;
     Matrix(int d1, int d2);
-    ~Matrix();
+    //~Matrix();
     Matrix() = default;
     float& operator[](int i);
     float& operator() (int i, int j);

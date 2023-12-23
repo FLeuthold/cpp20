@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include <array>
-#include "Matrix.hpp"
+#include "MatrixC.hpp"
 int main()
 {
     Matrix a(3, 2);
